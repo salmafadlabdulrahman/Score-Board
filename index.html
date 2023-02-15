@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <div class="board"><span id="score-home">0</span></div>
+
+        <div class="buttons-container">
+          <button onclick="addOneH()"><p id="num-el">+1</p></button>
+          <button onclick="addTwoH()"><p id="num-el">+2</p></button>
+          <button onclick="addThreeH()"><p id="num-el">+3</p></button>
+        </div>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <div class="board"><span id="score-guest">0</span></div>
+        <div class="buttons-container">
+          <button onclick="addOneG()"><p id="num-el">+1</p></button>
+          <button onclick="addTwoG()"><p id="num-el">+2</p></button>
+          <button onclick="addThreeG()"><p id="num-el">+3</p></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
